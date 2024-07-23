@@ -1,13 +1,21 @@
-**Install python** 
-**Install pip**
-Create a file System-Health-Monitoring-Script.py
-Run a code python System-Health-Monitoring-Script.py
+**System Health Monitoring Script**
+This Python script monitors the health of a Linux system by checking CPU usage, memory usage, disk space, and running processes. It alerts if any of these metrics exceed predefined thresholds.
 
-**Output** :
-Starting system health checks...
-Current CPU Usage: 2.3%
-Current Memory Usage: 83.3%
-Memory usage is above threshold! Alert.
-Current Disk Usage: 33.1%
-Current Number of Running Processes: 149
-Health checks completed.
+**Installation**
+Python Installation
+Download Python:
+
+Open a terminal or command prompt and check Python version:
+python --version
+**Pip Installation**
+Install pip:
+pip --version
+
+Script Setup
+Create Monitoring Script:
+**Clone the repository**
+git clone https://github.com/rohitutekar123/System-Health-Monitoring-Script
+
+**Run the Script:**
+python System-Health-Monitoring-Script.py
+
